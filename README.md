@@ -1,15 +1,16 @@
-# 🚀 Welcome to your new awesome project!
+# Socket Forum
 
-This project has been created using **webpack-cli**, you can now run
+First prototype of socket forum
 
-```
-npm run build
-```
+### Run
 
-or
+Open 2 consoles,
 
-```
-yarn build
-```
+in first type `npm run start:c`
+in second type `npm run start:s`
 
-to bundle your application
+### Notes
+Every time you create topic `topics.json` updates and nodemon restarts server and logouts you.
+Configurate nodemon to ignore `topics.json` or run `node ./dist/server.js` after server build in second console.
+
+To create topic you will need an account. There is `testusr` with password `asdf` and email `asdf`.
