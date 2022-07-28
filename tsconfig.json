@@ -1,36 +1,12 @@
-// {
-//   "compilerOptions": {
-//     "allowSyntheticDefaultImports": true,
-//     "noImplicitAny": true,
-//     "module": "es6",
-//     "target": "es5",
-//     "allowJs": true
-//   },
-//   "files": ["src/index.tsx"]
-// }
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "moduleResolution": "Node",
-    "outDir": "./dist/",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "isolatedModules": false,
-    "jsx": "react"
+    "allowJs": false
   },
-  "include": [
-    "src",
-    "src/client/@types/custom.d.ts"
+  "files": [
+    "src/index.ts"
   ]
 }
